@@ -1,24 +1,51 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Ruby](https://img.shields.io/badge/Ruby-3.1.12-red)
+![Rails](https://img.shields.io/badge/Rails-7.1.3.3-red)
 
-Things you may want to cover:
 
-* Ruby version
+Este es un proyecto de inventario de productos.
 
-* System dependencies
+## Requerimientos
 
-* Configuration
+- Ruby 3.1.12
+- Rails 7.1.3.3
 
-* Database creation
+## Instalación
 
-* Database initialization
+1. Clonar el repositorio
 
-* How to run the test suite
+```bash
+git clone 
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+2. Instalar las dependencias
 
-* Deployment instructions
+```bash
+bundle install
+```
 
-* ...
+3. Crear la base de datos
+
+```bash
+rails db:create
+rails db:migrate
+```
+
+4. Correr el servidor
+
+```bash
+rails s
+```
+
+## Uso
+
+Puedes acceder a la aplicación en [http://localhost:3000](http://localhost:3000)
+
+## Licencia
+
+[MIT](https://opensource.org/licenses/MIT)
+
+## Autor
+
+[Diego Saavedra](https://statick88.github.io)
