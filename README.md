@@ -16,7 +16,7 @@ Este es un proyecto de inventario de productos.
 1. Clonar el repositorio
 
 ```bash
-git clone 
+git clone https://github.com/statick88/inventory_app.git
 ```
 
 2. Instalar las dependencias
