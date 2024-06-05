@@ -7,7 +7,7 @@
 <li>
     <%= link_to item.name, item_path(item) %>
     <%= link_to 'Edit', edit_item_path(item) %>
-    <%= link_to 'Destroy', item, method: :delete, data: { confirm: 'Are you sure?' } %>
+    <%= link_to 'Destroy', item_path(item), data: { turbo_method: :delete } %>
 </li>
 <% end %>
 </ul>
